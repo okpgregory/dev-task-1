@@ -16,7 +16,7 @@
     align-items: center;
     color: #fff;
     flex-direction: column;
-    position: relative; /* Keep it for the pseudo-element layering */
+    position: relative;
 }
 
 .hero::before {
@@ -31,7 +31,6 @@
     filter: blur(15px);
 }
 
-/* Add the blue overlay */
 .hero::after {
     content: "";
     position: absolute;
@@ -40,6 +39,7 @@
     right: 0;
     bottom: 0;
     background-color: #040f2b5d;
+    background: linear-gradient(to bottom, #040f2b5d, #040f2b33)
 }
 
 
@@ -59,6 +59,13 @@
     font-size: 2.5rem;
     font-weight: 700;
     background: linear-gradient(to right, #00A3FF, #00FFF0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.highlight {
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -87,4 +94,42 @@
 .partners img {
     transform: scale(0.7);
     width: 205px;
+}
+
+section.about {
+    background: #0F1525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    color: #fff;
+    gap: 3rem;
+}
+
+section.about h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(to right, #00A3FF, #00FFF0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+section.about p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin-block: 10px;
+}
+
+section.about img {
+    width: 312px;
+}
+
+section.about button {
+    background-color: #0B8DCD;
+    border: none;
+    padding: 12px 25px;
+    box-shadow: 0px 4px 24px 0px #4B7EFF99;
+    color: white;
+    border-radius: 4px;
 }
