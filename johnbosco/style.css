@@ -1,0 +1,53 @@
+.gradient {
+  background: linear-gradient(to right, #86efac, #3b82f6, #a78bfa); 
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent; 
+}
+
+body, nav{
+  background:black;
+    
+    
+}
+
+
+   
+ .line {
+    display: flex;
+    width: 40%;
+    height: 2px;
+    background: linear-gradient(to right, #86efac, #3b82f6, #a78bfa);
+    margin: auto;
+    
+}
+
+.project-button {
+    border: 1px solid; 
+    border-image: linear-gradient(to right, #86efac, #3b82f6, #a78bfa) 1; 
+    border-radius: 8px; 
+    
+}
+
+
+.project-text{
+     border-radius: 70px 0px 0px 0; 
+}
+
+.project-img{
+     border-radius: 0px 0px 100px 0px;
+}
+
+.project-content{
+   display: flex; 
+ justify-content: center;
+ margin: auto;
+   width: 90%;
+  height: 300px;  
+}
+
+.slider-btn{
+    bottom:-10%;
+    
+    
+}

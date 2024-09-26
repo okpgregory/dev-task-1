@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+
+    <title> Portfolio Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <nav class="fixed top-0 left-0 w-full z-50 ">
+        <div class="flex justify-between items-center mx-auto max-w-screen-xl flex-wrap p-4">
+            <a href="h" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="img/img1.png" class="h-12" alt="Logo" />
+                <span class="gradient self-center text-2xl  whitespace-nowrap dark:text-white font-semibold"> ChainBuilders</span>
+            </a>
+            <button data-collapse-toggle="mega-menu-full" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-md text-gray-200 rounded-sm md:hidden hover:bg-gray-900 focus:outline-none  focus:ring-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-full" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div id="mega-menu-full" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+                <ul class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
+                    <li>
+                        <a href="#about" class="block py-2 px-3 text-white   hover:bg-gray-900  md:border-0 hover:text-blue-700 " aria-current="page">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#project" class="block py-2 px-3 text-white hover:bg-gray-900  md:border-0 hover:text-blue-700  ">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="block py-2 px-3 text-white hover:bg-gray-900  md:border-0 hover:text-blue-700  ">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#review" class="block py-2 px-3 text-white hover:bg-gray-900  md:border-0 hover:text-blue-700 ">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </nav>
+
+
+    <section id="home" class="z-50 pt-32">
+
+        <div class="container px-6 py-16 mx-auto text-center">
+            <div class="max-w-lg mx-auto">
+
+                <h4 class="text-xl lg:text-2xl text-gray-400 pb-2 ">Welcome to ChainBuilders</h4>
+                <h1 class="text-3xl font-semibold gradient lg:text-4xl">Let's Build Innovative Digital Solutions Together</h1>
+                <p class="mt-3 text-gray-500 text-sm">At ChainBuilders, we create tailored solutions to transform your ideas into reality. Our team is focused on delivering high-quality, scalable, and efficient applications that fit your unique needs.</p>
+
+
+                <div class="mt-4 flex items-center justify-center">
+                    <div class="flex -space-x-4 rtl:space-x-reverse">
+                        <img class="w-10 h-10 border-2 border-white rounded-full " src="img/member-2.png" alt="">
+                        <img class="w-10 h-10 border-2 border-white rounded-full " src="img/member-3.png" alt="">
+                        <img class="w-10 h-10 border-2 border-white rounded-full " src="img/member-5.png" alt="">
+                        <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 " href="#">+99</a>
+                    </div>
+                    <p class=" text-sm text-gray-400  px-2"> happy clients </p>
+                </div>
+
+                <button class="px-5 py-2 mt-8 text-sm font-medium leading-5 text-center text-white capitalize bg-indigo-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none"> 🚀
+                    Discover Our Projects
+                </button>
+
+            </div>
+
+        </div>
+    </section>
+
+<marquee behavior="scroll" direction="left">
+    <div class="flex gap-6 pt-8">
+    <h1 class="text-gray-400 text-2xl font-bold">ACEHUB</h1>
+    <h1 class="text-gray-400 text-2xl font-bold">AcademiaJobs</h1>
+        <h1 class="text-gray-400 text-2xl font-bold">SolarEcoSolutions</h1>
+         <h1 class="text-gray-400 text-2xl font-bold">CeciFarm</h1>
+    </div>
+</marquee>
+
+
+
+
+
+    <section id="about" class="px-8 my-12">
+
+
+        <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
+
+            <img class="rounded-t-lg
+        
+        md:w-1/2 img" src="img/feed-image-1.png" alt="" />
+
+            <div class="">
+                <h2 class="text-2xl pt-4 pb-2 font-bold gradient">About Us</h2>
+                <p class="mb-3 font-normal text-gray-400 text-sm about ">At ChainBuilders, we craft innovative digital solutions that help businesses grow. Our team delivers tailored, high-quality projects with a focus on efficiency, creativity, and user experience. Whether it's a web app, mobile app, or digital transformation, we're here to bring your vision to life.</p>
+                <button class="px-5 py-2 mt-4 text-sm font-medium leading-5 text-center text-white capitalize bg-indigo-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none">
+                    🙂 Download Our Resume
+                </button>
+
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+    <section id="project" class="project px-4 py-8">
+        <h2 class="text-center font-bold text-2xl gradient pb-2">Our Previous Project</h2>
+        <span class="line"></span>
+        <p class="pt-3 px-3 font text-gray-400 text-sm text-center">Our latest project brings innovation and security together, creating solutions that make a real-world impact.</p>
+        <div class="grid grid-cols-1 xl:grid-cols-3 gap-2 lg:grid-cols-2 lg:gap-8 ">
+            <div class="project-content pt-8">
+                <div class="project-text bg-gray-900 py-12 px-6">
+                    <h3 class="text-white font-bold text-xl">ACEHUB</h3>
+                    <p class="text-gray-500 text-sm pb-2">All Crypto Event Hub helps users discover crypto events and connect with sponsors.</p>
+
+                    <div class="pb-6 flex items-center gap-1 ">
+
+                        <img class="w-4 h-4 " src="img/html.png" alt="">
+                        <img class="w-4 h-4 " src="img/css.png" alt="">
+                        <img class="w-4 h-4" src="img/react.png" alt="">
+                        <img class="w-4 h-45" src="img/next.png" alt="">
+                        <img class="w-4 h-4 " src="img/tail.png" alt="">
+                        <img class="w-4 h-4 " src="img/node.png" alt=""> <img class="w-4
+                 h-4 " src="img/aws.png" alt="">
+                    </div>
+
+                    <a href="index2.html" class="project-button gradient text-sm px-2 py-2 hover:text-white ">Explore Now ➔</a>
+                </div>
+                <div class=" w-full project-img">
+                    <img src="img/pro.png" class=" h-full w-full project-img" alt="img/feed-image-4.png">
+                </div>
+
+            </div>
+
+
+
+            <div class="project-content pt-8">
+                <div class="project-text bg-gray-900 py-12 px-6">
+                    <h3 class="text-white font-bold text-xl">AcademiaJobs</h3>
+                    <p class="text-gray-500 text-sm pb-2">AcademiaJobs connects academics with job opportunities in various educational fields.</p>
+                    <div class="pb-6 flex items-center gap-1 "> <img class="w-4 h-4 " src="img/html.png" alt="">
+                        <img class="w-4 h-4 " src="img/css.png" alt="">
+                        <img class="w-4 h-4" src="img/js.png" alt="">
+
+                        <img class="w-4 h-4 " src="img/bot.png" alt="">
+                        <img class="w-4 h-4 " src="img/node.png" alt=""> <img class="w-4
+                                     h-4 " src="img/aws.png" alt="">
+                    </div>
+
+                    <a class="project-button gradient text-sm px-2 py-2 hover:text-white">Explore Now ➔</a>
+                </div>
+                <div class=" w-full project-img">
+                    <img src="img/pro1.jpg" class=" h-full w-full project-img" alt="img/feed-image-4.png">
+                </div>
+
+            </div>
+
+
+
+            <div class="project-content pt-8">
+                <div class="project-text bg-gray-900 py-12 px-6">
+                    <h3 class="text-white font-bold text-xl">CeciFarm</h3>
+                    <p class="text-gray-500 text-sm pb-2">CeciFarm is an online platform for buying and selling fresh farm produce and seedlings.</p>
+
+                    <div class="pb-6 flex items-center gap-1 ">
+
+                        <img class="w-4 h-4 " src="img/html.png" alt="">
+                        <img class="w-4 h-4 " src="img/css.png" alt="">
+                        <img class="w-4 h-4" src="img/react.png" alt="">
+
+                        <img class="w-4 h-4 " src="img/bot.png" alt="">
+                        <img class="w-4 h-4 " src="img/node.png" alt=""> <img class="w-4
+                                     h-4 " src="img/aws.png" alt="">
+                    </div>
+
+
+                    <a class="project-button gradient text-sm px-2 py-2 hover:text-white">Explore Now ➔</a>
+                </div>
+                <div class=" w-full project-img">
+                    <img src="img/pro2.png" class=" h-full w-full project-img" alt="img/feed-image-4.png">
+                </div>
+
+            </div>
+
+
+
+            <div class="project-content pt-8">
+                <div class="project-text bg-gray-900 py-12 px-6">
+                    <h3 class="text-white font-bold text-xl">SolarEcoSolutions</h3>
+                    <p class="text-gray-500 text-sm pb-2">SolarEco Solutions offers sustainable solar power installations for homes and businesses.</p>
+
+                    <div class="pb-6 flex items-center gap-1 "> <img class="w-4 h-4 " src="img/html.png" alt="">
+                        <img class="w-4 h-4 " src="img/css.png" alt="">
+                        <img class="w-4 h-4" src="img/js.png" alt="">
+
+                        <img class="w-4 h-4 " src="img/bot.png" alt="">
+                        <img class="w-4 h-4 " src="img/node.png" alt=""> <img class="w-4
+                                     h-4 " src="img/aws.png" alt="">
+                    </div>
+
+
+
+                    <a class="project-button gradient text-sm px-2 py-2 hover:text-">Explore Now ➔</a>
+                </div>
+                <div class=" w-full project-img">
+                    <img src="img/pro3.png" class=" h-full w-full project-img" alt="img/feed-image-4.png">
+                </div>
+
+            </div>
+
+
+            <div class="project-content pt-8">
+                <div class="project-text bg-gray-900 py-12 px-6">
+                    <h3 class="text-white font-bold text-xl">Explore More </h3>
+                    <p class="text-gray-500 text-sm pb-6">Explore more about our latest project we have done</p>
+                 
+
+                    <a class="project-button gradient text-sm px-2 py-2 hover:text-white">View All ➔</a>
+                </div>
+                <div class=" w-full project-img">
+                    <img src="img/web3.jpg" class=" h-full w-full project-img" alt="img/feed-image-4.png">
+                </div>
+
+            </div>
+ </div> </section>
+
+
+<section id="review" class="review px-4 py-8">
+         <h2 class="text-center font-bold text-2xl gradient pb-2">Testimonials</h2>
+         <span class="line"></span>
+         <p class="pt-3 px-3 font text-gray-400 text-sm text-center">Here's what our clients have to say about their experience working with ChainBuilder, from innovative solutions to exceptional project results.</p>
+    
+    
+
+<div  class=" grid grid-cols-1 xl:grid-cols-3 gap-6 lg:grid-cols-2 lg:gap-8  w-full  mt-5" >
+    
+
+    <div class="flex flex-col items-center justify-center hover:bg-gray-100  py-6  text-center bg-gray-900 px-4 shadow-xl rounded-lg">
+        
+        
+        <div class="flex items-center justify-center flex-col ">
+            <img class="rounded-full w-12 h-12" src="img/member-2.png" alt="profile picture">
+                <h3 class="text-md pt-2 gradient">John Deo</h3>
+                <p class="text-sm text-gray-500 ">(Small Business Owner)</p> </div>
+       
+            <p class="text-gray-400 text-sm pt-2">Great experience! The interface was easy to use, and customer support was very responsive. Will use again.</p>
+                            <button class="px-5 py-2 mt-2  text-sm font-medium leading-5 text-center text-white capitalize bg-indigo-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none"> Learn more  ➔
+                            </button>
+    </div>
+    
+            
+    <div class="flex flex-col items-center justify-center py-6 text-center bg-gray-900 hover:bg-gray-100  px-4 shadow-xl rounded-lg">
+        
+        
+        <div class="flex items-center justify-center flex-col ">
+            <img class="rounded-full w-12 h-12" src="img/member-5.png" alt="profile picture">
+                <h3 class="text-md pt-2 gradient">Michael P</h3>
+                <p class="text-sm text-gray-500 ">(Marketing Manager)</p> </div>
+       
+            <p class="text-gray-400 text-sm pt-3">The product quality was top-notch. I received exactly what I ordered, and the delivery was fast. Very satisfied.</p>
+                            <button class="px-5 py-2 mt-2  text-sm font-medium leading-5 text-center text-white capitalize bg-indigo-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none"> Learn more  ➔
+                            </button>
+    </div>
+    
+            
+    <div class="flex flex-col items-center justify-center py-6 text-center bg-gray-900 hover:bg-gray-100  px-4 rounded-lg shadow-xl">
+        
+        
+        <div class="flex items-center justify-center flex-col ">
+            <img class="rounded-full w-12 h-12" src="img/member-3.png" alt="profile picture">
+                <h3 class="text-md pt-2 gradient">Olivia T.</h3>
+                <p class="text-sm text-gray-500 ">(Event Planner)</p> </div>
+       
+            <p class="text-gray-400 text-sm pt-2">Fantastic platform! The seamless process made everything so convenient. I’ll definitely be a returning customer.</p>
+                            <button class="px-5 py-2 mt-2  text-sm font-medium leading-5 text-center text-white capitalize bg-indigo-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none"> Learn more ➔
+                            </button>
+    </div>
+    
+            
+    <div class="flex flex-col items-center justify-center py-6 text-center bg-gray-900 hover:bg-gray-100  px-4 shadow-xl rounded-lg ">
+        
+        
+        <div class="flex items-center justify-center flex-col ">
+            <img class="rounded-full w-12 h-12" src="img/photo4.png" alt="profile picture">
+                <h3 class="text-md pt-2 gradient">James K.</h3>
+                <p class="text-sm text-gray-500 ">Frontend Developer</p> </div>
+       
+           <p class="text-gray-400 text-sm pt-2">This service exceeded my expectations. The team was professional, and the result was delivered on time. Highly recommend!</p>
+                            <button class="px-5 py-2 mt-2  text-sm font-medium leading-5 text-center text-white capitalize bg-indigo-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none"> Learn more  ➔
+                            </button>
+    </div>
+    
+            
+    <div class="flex flex-col items-center justify-center py-6 text-center bg-gray-900 hover:bg-gray-100  px-4 shadow-xl rounded-lg ">
+        
+        
+        <div class="flex items-center justify-center flex-col ">
+            <img class="rounded-full w-12 h-12" src="img/member-9.png" alt="profile picture">
+                <h3 class="text-md pt-2 gradient">Michael P.</h3>
+                <p class="text-sm text-gray-500 ">(Student)</p> </div>
+       
+            <p class="text-gray-400 text-sm pt-2">Efficient and reliable. Everything worked perfectly, and the attention to detail was impressive. Thumbs up!</p>
+                            <button class="px-5 py-2 mt-2  text-sm font-medium leading-5 text-center text-white capitalize bg-indigo-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none"> Learn more  ➔
+                            </button>
+    </div>
+    
+    </div>
+</section>
+
+
+<section id="experience" class="experience px-8 py-8">
+         <h2 class="text-center font-bold text-2xl gradient pb-2">Recent Experience</h2>
+         <span class="line"></span>
+         <p class="pt-3 px-3 font text-gray-400 text-sm text-center">We gained valuable skills through recent projects, collaborating with diverse teams to deliver exceptional results and adapt to dynamic environments.</p>
+    
+<div class="pt-4">
+    
+    <h4 class="text-gray-300 font-bold text-lg"> <span class="gradient">Frontend Developers Team Lead</span> Tech Innovations Inc.</h4>
+    <p class="text-sm text-gray-600">January 2023 - June 2023 (5 months)</p>
+   <h4 class="text-gray-300 pt-2">👩‍💻 Technical Background:</h4>
+ <p class="text-gray-500 text-sm">- Tailwind CSS: Styled the platform for a clean and modern design.</p>
+   <p class="text-gray-500 text-sm">- React: Built dynamic user interfaces for enhanced responsiveness.</p>
+   <p class="text-gray-500 text-sm">- JavaScript: Developed interactive features to improve user engagement.</p>
+   <p class="text-gray-500 text-sm">- Git: Managed version control for efficient team collaboration.</p>
+   
+      <h4 class="text-gray-300 pt-2">👩‍💻 Business:</h4>
+ <p class="text-gray-500 text-sm">- Community Engagement Platform: Fostered local interactions and collaborations.</p>
+   <p class="text-gray-500 text-sm">- User Feedback System: Collected insights for continuous improvement. </p>
+   <p class="text-gray-500 text-sm">- Volunteer Coordination System: Connected volunteers with local opportunities.</p>
+   <p class="text-gray-500 text-sm">- Event Management Tool: Streamlined the organization of community events.</p>
+   
+   <div class="flex justify-center">
+       <button class="px-5 py-2 mt-6  text-sm font-medium leading-5 text-center text-white capitalize bg-indigo-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none"> Download CV</button>
+       
+   </div>
+  </div>
+</section>
+
+<section id="experience" class="experience px-6 py-8">
+         <h2 class="text-center font-bold text-2xl gradient pb-2">Education </h2>
+         <span class="line"></span>
+         <p class="pt-3 px-3 font text-gray-400 text-sm text-center">We gained valuable skills through recent projects, collaborating with diverse teams to deliver exceptional results and adapt to dynamic environments.</p>
+                 
+                 
+                 
+                 
+           
+         
+  <div class="bg-gray-900 px-4 mt-5 rounded-lg shadow-xl py-4 grid grid-cols-1 gap-3 md:gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <div class="flex gap-2">
+       <img src="img/edu.png" alt="img/edu.png" class="h-20 w-20">
+          <div class="" >
+              <h4 class="gradient text-md font-semibold">University of Technology</h4>
+              <p class="text-sm text-gray-400" > Bachelor of Science in Computer Science</p>
+              <p class="text-xs text-gray-600">May 2020 - Oct 2023</p>
+          </div>
+             </div>
+             
+      <p class="text-gray-300 text-sm">Developed software applications with a focus on best practices and design patterns. Gained hands-on experience with data structures, algorithms, and relational databases for effective data management.</p>  
+   <div class="flex justify-center">
+       <button class="px-5 py-2 mt-6  text-sm font-medium leading-5 text-center text-white capitalize bg-indigo-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none"> Learn more ➔</button>
+       
+   </div></div>
+
+         
+            <div class="bg-gray-900 px-4 mt-5 rounded-lg shadow-xl py-4 grid grid-cols-1 gap-3 md:gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <div class="flex gap-2">
+          <img src="img/edu2.png" alt="img/edu1.png" class="h-20 w-20">
+          <div class="" >
+              <h4 class="gradient text-md font-semibold">Institute of Advanced Studies</h4>
+              <p class="text-sm text-gray-400" > Master of Science in Information Technology</p>
+              <p class="text-xs text-gray-600">May 2020 - Oct 2023</p>
+          </div>
+             </div>
+             
+      <p class="text-gray-300 text-sm">Explored cloud architecture, cybersecurity principles, and AI techniques to safeguard information systems and drive data-informed decisions.</p>  
+   <div class="flex justify-center">
+       <button class="px-5 py-2 mt-6  text-sm font-medium leading-5 text-center text-white capitalize bg-indigo-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none"> Learn more ➔</button>
+       
+   </div>
+         </div>
+         
+          
+     <div class="bg-gray-900 px-4 mt-5 rounded-lg shadow-xl py-4 grid grid-cols-1 gap-3 md:gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <div class="flex gap-2">
+   <img src="img/edu1.png" alt="img/edu.png" class="h-20 w-20">
+          <div class="" >
+              <h4 class="gradient text-md font-semibold">Various Institutions</h4>
+              <p class="text-sm text-gray-400" > Professional Development Workshops</p>
+              <p class="text-xs text-gray-600">May 2020 - Oct 2023</p>
+          </div>
+             </div>
+             
+      <p class="text-gray-300 text-sm">Ongoing
+Engaged in workshops focusing on advanced technologies and methodologies, including DevOps practices, Agile project management, and machine learning frameworks. Enhanced skills in effective collaboration and communication within tech teams.</p>  
+   <div class="flex justify-center">
+       <button class="px-5 py-2 mt-6  text-sm font-medium leading-5 text-center text-white capitalize bg-indigo-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none"> Learn more ➔</button>
+       
+   </div>
+        </div> 
+         
+</section>
+
+<section id="contact" class=" px-4 py-8">
+         <h2 class="text-center font-bold text-2xl gradient pb-2">Contact Us</h2>
+         <span class="line"></span>
+<div class="text-center mt-8">
+   <button class="text-white bg-indigo-700  hover:bg-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 " type="button" data-drawer-target="drawer-contact" data-drawer-show="drawer-contact" aria-controls="drawer-contact">
+   Write us a message
+   </button>
+</div>
+
+
+<div id="drawer-contact" class="fixed top-0 left-0 z-40 h-screen mt-8 px-4 pt-20 overflow-y-auto transition-transform -translate-x-full bg-white w-full" tabindex="-1" aria-labelledby="drawer-contact-label">
+   <h5 id="drawer-label" class="inline-flex items-center mb-6 text-base font-semibold text-gray-500 uppercase dark:text-gray-400"><svg class="w-4 h-4 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+    <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+    <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+  </svg>Contact us</h5>
+   <button type="button" data-drawer-hide="drawer-contact" aria-controls="drawer-contact" class="mt-8 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-5 end-2.5 inline-flex items-center justify-center " >
+      <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+      </svg>
+      <span class="sr-only">Close menu</span>
+   </button>
+   <form class="mb-6">
+      <div class="mb-6">
+         <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+         <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required />
+      </div>
+      <div class="mb-6">
+         <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subject</label>
+         <input type="text" id="subject" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Let us know how we can help you" required />
+      </div>
+      <div class="mb-6">
+         <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+         <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your message..."></textarea>
+      </div>
+      <button type="submit" class="text-white bg-indigo-700 hover:bg-blue-300 w-full  font-medium rounded-lg text-sm px-5 py-2.5 mb-2  block">Send message</button>
+   </form>
+   <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
+      <a href="#" class="hover:underline">info@chainbuilders.com</a>
+   </p>
+   <p class="text-sm text-gray-500 dark:text-gray-400">
+      <a href="#" class="hover:underline">212-456-7890</a>
+   </p>
+</div>
+
+        
+        
+       
+            
+        </section>
+
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+</body>
+
+</html>
