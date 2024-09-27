@@ -137,7 +137,7 @@ section.about button {
     border-radius: 4px;
 }
 
-.recent-cases h2 {
+.recent-cases > h2:first-of-type {
     text-align: center;
 }
 
@@ -156,10 +156,11 @@ section.about button {
     justify-content: space-between;
     gap: 3rem;
     background: #060C1D;
-    height: 300px;
+    height: 350px;
     border-radius: 20px;
     margin-block: 40px;
     overflow: hidden;
+    align-items: center;
     width: 70%;
     margin-inline: auto;
 }
@@ -197,7 +198,7 @@ section.about button {
 
 .case-btn {
     border: 1px solid #00A3FF;
-    padding: 8px 20px;
+    padding: 10px;
     background-color: #060C1D;
     background: linear-gradient(to right, #00A3FF, #00FFF0);
     -webkit-background-clip: text;
@@ -207,7 +208,7 @@ section.about button {
     border-radius: 4px;
     margin-top: 15px;
     display: flex;
-    font-size: 1rem;
+    font-size: .9rem;
     align-items: center;
     gap: .7rem;
 }
