@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+body {
+    background: #0F1525;
+}
+
 .hero {
     background-image: url("../images/Background.png");
     background-size: cover;
@@ -55,7 +59,7 @@
     text-transform: uppercase;
 }
 
-.name {
+.heading {
     font-size: 2.5rem;
     font-weight: 700;
     background: linear-gradient(to right, #00A3FF, #00FFF0);
@@ -97,7 +101,6 @@
 }
 
 section.about {
-    background: #0F1525;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +119,7 @@ section.about h2 {
 }
 
 section.about p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     max-width: 600px;
     margin-block: 10px;
 }
@@ -132,4 +135,83 @@ section.about button {
     box-shadow: 0px 4px 24px 0px #4B7EFF99;
     color: white;
     border-radius: 4px;
+}
+
+.recent-cases h2 {
+    text-align: center;
+}
+
+.recent-cases p {
+    margin-inline: auto;
+    max-width: 700px;
+    text-align: center;
+    margin-block: 10px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.case {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+    background: #060C1D;
+    height: 300px;
+    border-radius: 20px;
+    margin-block: 40px;
+    overflow: hidden;
+    width: 70%;
+    margin-inline: auto;
+}
+
+.case-content {
+    padding: 45px 0 45px 45px;
+}
+
+.case-content p {
+    color: #FFFFFFBF;
+    font-size: .9rem;
+    line-height: 1.5;
+    max-width: 300px;
+    text-align: left;
+}
+
+.case-content > img {
+   width: 250px;
+}
+
+.case > img {
+    width: 55%;
+    height: 100%;
+}
+
+.technologies {
+    display: flex;
+}
+
+.technologies img {
+    scale: 0.55;
+    margin-left: -10px;
+   
+}
+
+.case-btn {
+    border: 1px solid #00A3FF;
+    padding: 8px 20px;
+    background-color: #060C1D;
+    background: linear-gradient(to right, #00A3FF, #00FFF0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+    border-radius: 4px;
+    margin-top: 15px;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    gap: .7rem;
+}
+
+.case-btn img {
+    width: 15px;
 }
