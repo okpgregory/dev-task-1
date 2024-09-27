@@ -217,7 +217,8 @@ section.about button {
     width: 15px;
 }
 
-.testimonial > h2, p {
+.testimonial > h2, 
+.testimonial > p {
     text-align: center;
     max-width: 700px;
     margin-inline: auto;
@@ -301,3 +302,30 @@ section.about button {
     transform: rotate(-90deg); 
   }
   
+
+  .experience > h2, 
+  .experience > p {
+    text-align: center;
+    max-width: 700px;
+    margin-block: 10px;
+    margin-inline: auto;
+}
+
+.experience {
+    color: #fff;
+    padding-inline: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 50px;
+}
+.experience ul {
+    padding-inline: 30px;
+    font-size: .8rem;
+}
+
+.experience .hero-btn {
+    margin-inline: auto;
+    text-align: center;
+}
